@@ -996,7 +996,7 @@ var PACMAN = (function () {
                 if (diff !== lastTime) { 
                     lastTime = diff;
                     map.draw(ctx);
-                    dialog("Iniciando em: " + diff);
+                    dialog("Reiniciando em: " + diff);
                 }
             }
         } 
